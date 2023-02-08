@@ -1,0 +1,25 @@
+dict1 = {'Details1':{'Name':'Ann','Age':20},'Details2':{'Course':'MCA','Batch':2019}}
+print(dict1)
+print(dict1["Details2"])
+print(dict1["Details2"]["Batch"])
+print(dict1.get("Details1"))
+print(dict1["Details1"].get("Age"))
+dict1["Details2"]["Batch"] = 2020
+print(dict1)
+dict1["Details3"] = {"College":"ABC","Place":"XYZ"}
+print(dict1)
+print(dict1.keys())
+print(dict1.values())
+print(dict1.items())
+dict1.update({"Details4":{'fruit1':'apple','fruit2':'orange'},'Details5':{1:'f1',2:'f2'}})
+print(dict1)
+dict1.popitem()
+print(dict1)
+dict1.pop("Details2")
+print(dict1)
+del dict1["Details3"]
+print(dict1)
+dict2 = dict1.copy()
+print(dict2)
+dict1.clear()
+print(dict1)

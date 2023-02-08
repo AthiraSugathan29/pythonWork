@@ -1,0 +1,12 @@
+tp1 = (10,23,[5,6,7],(9,15,34))
+print(tp1)
+print((tp1[0]))
+print(tp1[2])
+print(tp1[2][0])
+print(tp1[2][-1])
+print(tp1[2][:-1])
+tp1[2][0] = 32 # We can change the value of mutable datatype inside a tuple.
+print(tp1)
+print(tp1[3])
+print(tp1[3][0])
+print(tp1[3][-2])

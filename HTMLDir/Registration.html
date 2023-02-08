@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        html, body {
+            margin: 0;
+            height: 100%;
+            overflow: hidden
+        }
+        body {
+            text-align: center;
+        }
+        form {
+            display: inline-block;
+            border-radius: 5px;
+            width: 30%;
+            background-color:#0d093394;
+            align:center;
+            margin-top: 100px;
+        }
+        .text1{
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        h1 {
+            margin-top: 1px;
+            padding: 10px;
+            border-radius: 5px;
+            color:white;
+            background-color:#212068f2
+        }
+        .btn1{
+            background-color:#599d11;
+            color:white;
+            float: right;
+            border-radius: 5px;
+            margin: 1px 66px 35px 15px;
+            padding-left: 36px;
+            padding-right: 36px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            border: none;
+            font-size: 20px;
+        }
+        .check1{
+            color:white;
+            font-family: sans-serif;
+            font-size: 12px;
+            padding: 10px;
+            margin: 15px 46px 1px 61px;
+        }
+        label,input[type="checkbox"]{
+            display: inline-block;
+            vertical-align: middle;
+            margin-bottom: 10px;
+            cursor: default;
+            align-items: center;
+            font-size: .875rem;
+            display: flex;
+            flex-direction: row;
+            align-content: center;
+            justify-content: flex-end;
+            flex-wrap: nowrap;
+        }
+        span{
+            text-align: left;
+            font-size: 12px;
+            margin-left: 12px;
+<!--           margin-left: -0.5em;-->
+        }
+    </style>
+</head>
+<body style="height: 800px;background-color: red;
+  background-image: linear-gradient(#8529ad, #42adff);">
+<form>
+    <h1>Registration Form</h1>
+    <div>
+        <input type="text" placeholder="First name" size="40" class="text1"><br>
+        <input type="text" placeholder="Last name" size="40" class="text1"><br>
+        <input type="email" placeholder="Email" size="40" class="text1"><br>
+        <input type="password" placeholder="Password" size="40" class="text1"><br>
+    </div>
+    <div class="check1">
+            <label>
+            <input type="checkbox">
+                <span>Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</span>
+            </label><br>
+            <label>
+            <input type="checkbox">
+                <span>Diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.Ut wisi enim</span>
+            </label><br>
+    </div>
+    <div>
+        <input type="button" value="Register" class="btn1">
+    </div>
+</form>
+</body>
+</html>
